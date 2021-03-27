@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="convert.css">
+</head>
+<body>
+
+    <div id="main">
+
+        <div id="container">
+
+            <h3> CURRENCY CONVERTER</h3>
+     
+             <table>
+                 <tr>
+                     <td>
+                         <input type="number" id="frmAmnt" placeholder="Enter the amount">
+                     </td>
+     
+                     <td>
+                         <select name=""  class="slctstyle" id="from">
+                             <option value="USD">USD</option>
+                         </select>
+                     </td>
+                 </tr>
+                 <tr>
+                     <td>
+                         <input type="text" id="toAmnt" disabled>
+                     </td>
+     
+                     <td>
+                         <select name="" class="slctstyle" id="to">
+                            <option value="INR">INR</option>
+                         </select>
+                     </td>
+                 </tr>
+             </table>
+     
+         </div>
+
+    </div>
+    <script src="https://code.jquery.com/jquery-3.5.1.js" integrity="sha256-QWo7LDvxbWT2tbbQ97B53yJnYU3WhH/C8ycbRAkjPDc=" crossorigin="anonymous"></script>
+    <script src="convert.js"></script>
+    
+</body>
+</html>
